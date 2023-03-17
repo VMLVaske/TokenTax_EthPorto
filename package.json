@@ -1,0 +1,49 @@
+{
+  "name": "ethporto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:hardhat\" \"npm run dev:frontend\"",
+    "start:hardhat": "cd hardhat && npx hardhat node",
+    "start:frontend": "cd frontend && next start",
+    "dev:frontend": "cd frontend && next dev",
+    "frontend:build": "cd frontend && next build",
+    "frontend:lint": "cd frontend && next lint"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "concurrently": "^7.6.0",
+    "hardhat": "^2.13.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.0.0",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
