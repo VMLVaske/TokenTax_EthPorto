@@ -7,6 +7,10 @@ This repo contains the hardhat part. Something went terribly wrong, wanted to in
 [Frontend Github Repo](https://portofrontend-on30eonds-vmlvaske.vercel.app)
 [DEMO deployed on Vercel](https://github.com/VMLVaske/portofrontend)
 
+# TAIKAI Project Submission
+
+[Original Project Submission](https://taikai.network/ethporto/hackathons/ethportohackathon2023/projects/clfct42b366652701x2n5vrq6kv)
+
 # Idea
 
 TokenTax is a thought experiment that accompanies me for several years by now :) 
